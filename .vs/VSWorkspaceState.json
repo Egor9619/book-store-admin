@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\include",
+    "\\src"
   ],
-  "SelectedNode": "\\book-store-admin.cpp",
   "PreviewInSolutionExplorer": false
 }

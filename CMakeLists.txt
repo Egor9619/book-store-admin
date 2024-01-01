@@ -6,10 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 project ("book-store-admin")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (book-store-admin "book-store-admin.cpp" "book-store-admin.h")
-
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET book-store-admin PROPERTY CXX_STANDARD 20)
-endif()
+add_subdirectory(src)
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
